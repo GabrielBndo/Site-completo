@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-image: url(/img/login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+header {
+  background: linear-gradient(to right, #ad5389, #3c1053);
+}
+
+footer {
+  background: linear-gradient(to right, #ad5389, #3c1053);
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main h1 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 165px;
+  margin-top: -108px;
+}
+
+main .social-media {
+  display: flex;
+  align-content: center;
+}
+
+main .social-media img {
+  width: 36px;
+}
+
+
+main form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main form label {
+  display: flex;
+  flex-direction: column;
+}
+
+main form label span {
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+
+main form input {
+  background-color: rgb(92, 98, 104);
+  width: 300px;
+  height: 50px;
+  padding: 0 0.5rem;
+  margin-top: 1rem;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+  border: 1px solid #040b18;
+  border-radius: 10px;
+}
+
+main form input[type="button"] {
+  cursor: pointer;
+  width: 100%;
+  margin-top: 4rem;
+  border: none;
+  border-radius: 32px;
+  background: rgb(10, 219, 219);
+  color: black;
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+main form input[type="submit"]:hover {
+  background-color: rgb(4, 114, 77);
+}
+
+header {
+  background-color: #24252a;
+  box-shadow: 0px 3px 10px #464646;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 1rem auto;
+  margin-left: -55px;
+
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  margin: 105px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 6rem;
+}
+
+.logo img {
+  max-width: 70px;
+  width: 100%;
+  max-height: 70px;
+}
+
+.logo h1 {
+  color: white;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.15rem;
+  color: white;
+  font-weight: 400;
+}
+
+.login-button button {
+  border: none;
+  background: linear-gradient(to bottom right, #9914e0, #6e31bc);
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.login-button button a {
+  color: white;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+footer {
+  background-color: #24252a;
+  box-shadow: 0px 3px 5px 10px #464646;
+  position: absolute;
+  bottom: 2;
+  width: 100%;
+}
+
+.nav-bar-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 6rem;
+}
+
+.nav-list-footer {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list-footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social-items {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-social {
+  margin: 0.5rem;
+}
+
+.icon-social img {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+@media screen and (max-width: 730px) {
+  .nav-bar {
+    padding: 1.5rem 4rem;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .login-button {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.2rem;
+  }
+
+  .mobile-menu .login-button {
+    display: block;
+    padding: 1rem 2rem;
+  }
+
+  .mobile-menu .login-button button {
+    width: 100%;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+
+  .open {
+    display: block;
+  }
+}

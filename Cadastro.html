@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de cadastro</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/cadastro.css">
+  <script src="/javascript/script.js"></script>
+
+
+
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">
+        <img src="/img/icons/icon3.png" />
+      </div>
+
+      <div class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="servicos.html" class="nav-link">Serviços</a></li>
+          <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+        </ul>
+      </div>
+      <div class="login-button">
+        <button><a href="login.html">Entrar</a></button>
+        <button><a href="cadastro.html">Cadastrar</a></button>
+      </div>
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()">
+          <img class="icon" src="./img/icons/menu_white_36dp.svg" alt="" />
+        </button>
+      </div>
+    </nav>
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="servicos.html" class="nav-link">Serviços</a></li>
+        <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+      </ul>
+      <div class="login-button">
+        <button><a href="login.html">Entrar</a></button>
+        <button><a href="cadastro.html">Cadastrar</a></button>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <section class="content">
+
+      <main>
+        <div class="titulo">
+          <h1>Faça seu cadastro</h1>
+        </div>
+        <p>
+        <div class="social-media">
+          <a href="#">
+            <img src="/img/icons/Facebook.png" alt="facebook">
+          </a>
+          <a href="#">
+            <img src="/img/icons/linkedin.png" alt="Linkedin">
+          </a>
+          <a href="#">
+            <img src="img/google.png" alt="Google">
+          </a>
+
+        </div>
+
+        <div class="alternative">
+          <span>OR</span>
+        </div>
+        <form action="">
+          <label for="Nome">
+            <span>Nome</span>
+            <input type="text" id="Nome" nome="Nome" required>
+
+          </label>
+
+          <label for="Contato">
+            <span>Contato</span>
+            <input type="text" id="Contato" Contato="Contato" required>
+
+
+          </label>
+
+          <label for="Email">
+            <span>Email</span>
+            <input type="Email" id="Email" nome="Email" required>
+
+          </label>
+
+          <label for="Senha">
+            <span>Senha</span>
+            <input type="password" id="Senha" nome="Senha" required>
+
+          </label>
+
+          <label for="Senha">
+            <span>Confirme sua senha</span>
+            <input type="password" id="Senha" nome="Senha" required>
+
+          </label>
+
+          <a href="index.html"><input type="button" value="Criar Conta"></a>
+        </form>
+    </section>
+  </main>
+  <footer>
+    <nav class="nav-bar-footer">
+      <div class="logo">
+        <img src="/img/icons/icon3.png" />
+      </div>
+      <div class="nav-list-footer">
+        <ul>
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="servicos.html" class="nav-link">Serviços</a></li>
+          <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+        </ul>
+      </div>
+      <div class="social">
+        <div class="social-items">
+          <div class="icon-social">
+            <a href="#"><img src="img/icons/whatsapp.png" alt="" /></a>
+          </div>
+          <div class="icon-social">
+            <a href="#"><img src="img/icons/Facebook.png" alt="" /></a>
+          </div>
+          <div class="icon-social">
+            <a href="#"><img src="img/icons/instagram.png" alt="" /></a>
+          </div>
+          <div class="icon-social">
+            <a href="#"><img src="img/icons/linkedin.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </footer>
+  <script src="./js/menu.js"></script>
+  </main>
+
+
+  </section>
+</body>
+
+</html>
